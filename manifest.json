@@ -1,0 +1,10 @@
+{
+"manifest_version": 2,
+"name": "WIKI Search",
+"description": "search on wiki",
+"version": "1.0",
+"minimum_chrome_version": "20",
+"permissions": ["contextMenus","tabs"],
+"icons" : {"16": "image/search.png"},
+"background": {"page":"background.html"}
+}
